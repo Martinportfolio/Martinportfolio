@@ -1,0 +1,69 @@
+body{
+    background-color: #fff;
+    background-size: 100%;
+    margin: 0; padding: 0;
+    font-family: 'robot';
+}
+
+.menu{
+    background-color: rgba(0, 0, 0);
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+.logo{
+    margin: 0;padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'robot';
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.m-left{
+    float: left;
+}
+.m-right{
+    float: right;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.m-link{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link:hover{
+    padding-bottom: 3px;
+    border-color:#fff;
+}
+.ma-link i{
+    margin-right: 5px;
+}
+.veille{
+    margin-top: 10%;
+    font-size: 130%;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.point{
+    margin-top: 4%;
+    font-size: 130%;
+    color: black;
+    margin-left: 5%;
+}
+.ainsi{
+    margin-top: 4%;
+    font-size: 130%;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}

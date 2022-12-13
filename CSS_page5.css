@@ -1,0 +1,169 @@
+
+body{
+    background: linear-gradient(to right, rgb(21, 21, 23), rgb(121, 116, 116));
+    background-size: 100%;
+    margin: 0; padding: 0;
+    font-family: 'robot';
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+}
+.logo{
+    margin: 0;padding: 0;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-family: 'robot';
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.m-left{
+    float: left;
+}
+.m-right{
+    float: right;
+}
+.inner{
+    width: 80%;
+    margin: auto;
+}
+.m-link{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0;margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+}
+.m-link:hover{
+    padding-bottom: 3px;
+    border-color:#fff;
+}
+.ma-link i{
+    margin-right: 5px;
+}
+h1{
+    margin-top: 18%;
+    color: #fff;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 400%;
+}
+hr{
+    color: #fff;
+    border-radius: 100%;
+    margin: 30px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+.etudes{
+    color: darkgrey;
+    margin-top: 25%;
+    color: #fff;
+    font-size: 150%;
+    margin-left: 30%;
+}
+.etudes2{
+    display: flexbox;
+    color: #fff;
+    font-size: 100%;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 45%;
+    text-align: center;
+}
+.student{
+    display: flexbox;
+    float: right;
+    max-width: 12%;
+    max-height: 12%;
+    margin-right: 15%;
+}
+.experience{
+    margin-top: 10%;
+    color: #fff;
+    font-size: 150%;
+    margin-left: 24.5%;
+    
+}
+.experience2{
+    color: #fff;
+    font-size: 100%;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 45%;
+    text-align: center;
+}
+.travail{
+    float: right;
+    max-width: 12%;
+    max-height: 12%;
+    margin-right: 15%;
+}
+.qualités{
+    font-size: 300%;
+    color: darkgrey;
+    margin-top: 20%;
+    color: #fff;
+    text-align: center;
+}
+.qualités2{
+    color: #fff;
+    font-size: 100%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 45%;
+}
+.curieux{
+    float: right;
+    max-width: 9%;
+    max-height: 9%;
+    margin-right: 13%;
+}
+.qualités3{
+    color: #fff;
+    font-size: 100%;
+    margin-top: -1.9%;
+    margin-left: 10%;
+    margin-right: 45%;
+    text-align: center;
+}
+.adaptable{
+    float: right;
+    max-width: 9%;
+    max-height: 9%;
+    margin-right: 28%;
+}
+.qualités4{
+    color: #fff;
+    font-size: 100%;
+    margin-top: -1.9%;
+    margin-left: 45%;
+    margin-right: 10%;
+    text-align: center;
+}
+.creatif{
+    float: right;
+    max-width: 6%;
+    max-height: 6%;
+    margin-right: 29.5%;
+}
+.qualités5{
+    color: #fff;
+    font-size: 100%;
+    margin-top: -1.9%;
+    margin-left:  87%;
+    margin-right: 0%;
+}
+.perseverent{
+    float: right;
+    max-width: 9%;
+    max-height: 9%;
+    margin-right: -86%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="CSS_page2.css">
+</head>
+
+<body>
+    <header role="header">
+
+        <nav class="menu" role="navigation"
+         <div class="inner">
+            <div class="m-left">
+                <a href="html_acceuil.html" class="logo">Martin AMBLANC</a>
+            </div>
+            <div class="m-right">
+                <a href="page1_acceuil.html" class="m-link">accueil</a>
+                <a href="page2_administrative.html" class="m-link">administrative</a>
+                <a href="page3_competences.html" class="m-link">competences</a>
+                <a href="page4_veille_technologique.html" class="m-link">technologie</a>
+                <a href="page5_moi.html" class="m-link">profil</a>
+            </div>
+         </div>
+    </header>
+    <p class="icicv">Vous trouverez ici mon CV:</p>
+    <a href="file:///C:/Users/mart1/OneDrive/Bureau/Travail/CV.pdf" class="cv"><img src="cv.png"></a>
+    <p class="motivation">Vous trouverez ici ma lettre de motivation:</p>
+    <a href="file:///C:/Users/mart1/OneDrive/Bureau/Travail/Lettre%20de%20motivation%20satge.pdf" class="lettre"><img src="lettre.png"></a>
+    <head>
+    <script>page_2.js</script>
+  </head>
+  <body>
+     <h1>Formulaire de contact</h1>
+     <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+        <table class="form-style">
+           <tr>
+              <td>
+                 <label>
+                    Votre nom <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="text" name="name" class="long"/>
+                 <span class="error" id="errorname"></span>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Votre adresse e-mail <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <input type="email" name="email" class="long"/>
+                 <span class="error" id="erroremail"></span>
+              </td>
+           </tr>
+           <tr>
+              <td>
+                 <label>
+                    Message <span class="required">*</span>
+                 </label>
+              </td>
+              <td>
+                 <textarea name="message" class="long field-textarea"></textarea>
+                 <span class="error" id="errormsg"></span>
+              </td>
+           </tr>
+           <tr>
+              <td></td>
+              <td>
+                 <input type="submit" value="Envoyer">      
+                 <input type="reset" value="Réinitialiser"> 
+              </td>
+           </tr>
+        </table>
+     </form>
+    </body>
+</html>
